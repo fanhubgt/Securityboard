@@ -14,3 +14,8 @@ Cdd(1) can run after main menu shows up.
 Cdd(4) can run after main menu shows up again. 
 Cdd(7) can run after main menu shows up. 
 Cdd(6) can run after main menu runs again. 
+
+3. assertcounter.pl is based consult approach using fact loader of predicate sentences. Consult is a builtin rule of Prolog. Using consult(assertcounter.pl), it will load the facts in the file into its database.
+After, writing on the prompt of the Prolog Interpreter will invoke a Yes or no response in checking for assert of fact in the database. If yes then a fact is checked as member of the database. 
+
+-? 
