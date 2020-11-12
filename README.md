@@ -10,7 +10,7 @@ Heads has the name cdd(1) to cdd(12). After each similar headrule runs, then the
 
 Here the choices on selection are 1, 4, 7, 6. It runs as follows:
 
-Cdd(1) can run then main menu shows up. 
-Cdd(4) can run then main menu shows up again. 
-Cdd(7) can run then main menu shows up. 
-Cdd(6) can run then main menu runs again. 
+Cdd(1) can run after main menu shows up. 
+Cdd(4) can run after main menu shows up again. 
+Cdd(7) can run after main menu shows up. 
+Cdd(6) can run after main menu runs again. 
