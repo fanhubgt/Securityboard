@@ -21,12 +21,14 @@ After, writing on the prompt of the Prolog Interpreter will invoke a Yes or no r
 ?- cm_check(invalid,info).
 yes
 
+
 ?- cm_check(intern,replacement).
 yes
 
 
 ? - cm_check(passby,riot).
 yes
+
 
 ?- cm_check(access,system_codes).
 yes
@@ -43,12 +45,17 @@ Now no responses.
 ?- cm_check(interns,replacements).
 no
 
+
 %made arguments Plural throw no response. 
 
 ? - cm_check(passthrough,riots).
 no
+
+
 % pass­by is now pass-through, also riot is riots. 
 
 ?- cm_check(access,  
 error throws
+
+
  % incomplete with closing brackets and missing second argument. 
