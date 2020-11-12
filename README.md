@@ -19,6 +19,7 @@ Cdd(6) can run after main menu runs again.
 After, writing on the prompt of the Prolog Interpreter will invoke a Yes or no response in checking for assert of fact in the database. If yes then a fact is checked as member of the database. 
 
 ?- cm_check(invalid,info).
+
 yes
 
 
@@ -28,10 +29,12 @@ yes
 
 
 ? - cm_check(passby,riot).
+
 yes
 
 
 ?- cm_check(access,system_codes).
+
 yes
 
 
