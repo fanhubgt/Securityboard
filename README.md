@@ -38,12 +38,17 @@ yes
 
 This is a typical way of getting yes responses from the prompt of Prolog execution. 
 
+Now no responses. 
 
-?- cm_check(interns,replacements). %made arguments Plural throw no response. 
+?- cm_check(interns,replacements).
 no
 
-? - cm_check(passthrough,riots).  % pass­by is now pass-through, also riot is riots. 
-no
+%made arguments Plural throw no response. 
 
-?- cm_check(access,   % incomplete with closing brackets and missing second argument. 
+? - cm_check(passthrough,riots).
+no
+% pass­by is now pass-through, also riot is riots. 
+
+?- cm_check(access,  
 error throws
+ % incomplete with closing brackets and missing second argument. 
