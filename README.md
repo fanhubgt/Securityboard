@@ -18,4 +18,32 @@ Cdd(6) can run after main menu runs again.
 3. assertcounter.pl is based consult approach using fact loader of predicate sentences. Consult is a builtin rule of Prolog. Using consult(assertcounter.pl), it will load the facts in the file into its database.
 After, writing on the prompt of the Prolog Interpreter will invoke a Yes or no response in checking for assert of fact in the database. If yes then a fact is checked as member of the database. 
 
--? 
+?- cm_check(invalid,info).
+yes
+
+?- cm_check(intern,replacement).
+yes
+
+
+? - cm_check(passby,riot).
+yes
+
+?- cm_check(access,system_codes).
+yes
+
+
+?- cm_check(unlawful,entry).
+yes
+
+
+This is a typical way of getting yes responses from the prompt of Prolog execution. 
+
+
+?- cm_check(interns,replacements). %made arguments Plural throw no response. 
+no
+
+? - cm_check(passthrough,riots).  % pass­by is now pass-through, also riot is riots. 
+no
+
+?- cm_check(access,   % incomplete with closing brackets and missing second argument. 
+error throws
