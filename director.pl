@@ -112,7 +112,7 @@ main(1) :- main.
 
 exit(3) :- write('Quiting...'), halt.
 
-/*
+
 main :-
     nl,
     write('Security Director Program.'), nl,
@@ -123,4 +123,4 @@ main :-
     assess_opt(Choice), main.
 
 initialization('main').
-*/
+
