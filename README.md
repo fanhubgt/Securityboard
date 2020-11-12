@@ -6,7 +6,7 @@ There are 3 main types of logic programming the same interpreter with methods li
 After each differential rule calling a different headrule is invoked until the last rule is runs. Then the main, first headrule which is invoked by the Prolog Interpreter is called again in the process. As result causing all the headrules to be chained. 
 
 2. directorcase.pl is based on case approach. Each head rule has the same name as the other but with a differential increments of integer value starting from 1 to the the total number of headrules desired. Here, we are looking at 12 in total. The
-Heads has the name cdd(1) to cdd(12). After each similar headrule runs, then the main is invoked again to bring a menu selection for any other head rule in any other. 
+Heads has the name cdd(1) to cdd(12). After each similar headrule runs, then the main is invoked again to bring a menu selection for any other head rule in any order. 
 
 Here the choices on selection are 1, 4, 7, 6. It runs as follows:
 
@@ -18,7 +18,7 @@ Cdd(7) can run after main menu shows up.
 
 Cdd(6) can run after main menu runs again. 
 
-3. assertcounter.pl is based consult approach using fact loader of predicate sentences. Consult is a builtin rule of Prolog.
+3. assertcounter.pl is based on consult approach using a fact loader of predicate sentences. Consult is a builtin rule of Prolog.
  Using consult(assertcounter.pl), it will load the facts in the file into its database.
 After, writing on the prompt of the Prolog Interpreter will invoke a Yes or no response in checking for assert of fact in the database. If yes then a fact is checked as member of the database. 
 
