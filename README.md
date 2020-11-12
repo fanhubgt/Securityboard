@@ -69,7 +69,7 @@ error throws
 
 
 
-#Further Reading
+# Further Reading
 
 Search for author name Frank Appiah at easychair.org. 
 Four published articles are on display at the site.
