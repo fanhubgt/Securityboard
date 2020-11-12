@@ -11,8 +11,11 @@ Heads has the name cdd(1) to cdd(12). After each similar headrule runs, then the
 Here the choices on selection are 1, 4, 7, 6. It runs as follows:
 
 Cdd(1) can run after main menu shows up. 
+
 Cdd(4) can run after main menu shows up again. 
+
 Cdd(7) can run after main menu shows up. 
+
 Cdd(6) can run after main menu runs again. 
 
 3. assertcounter.pl is based consult approach using fact loader of predicate sentences. Consult is a builtin rule of Prolog. Using consult(assertcounter.pl), it will load the facts in the file into its database.
