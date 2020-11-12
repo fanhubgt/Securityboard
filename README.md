@@ -1,4 +1,4 @@
-# Securityboard
+# Securityboard Director 
 A small prolog program for security board director use to make countermeasure check on vulnerability prevention. 
 There are 3 main types of logic programming the same interpreter with methods like forward-backward chaining, case-based approach and predicate sentences on facts. 
 
