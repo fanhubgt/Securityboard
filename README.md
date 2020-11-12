@@ -23,6 +23,7 @@ yes
 
 
 ?- cm_check(intern,replacement).
+
 yes
 
 
@@ -35,6 +36,7 @@ yes
 
 
 ?- cm_check(unlawful,entry).
+
 yes
 
 
@@ -43,12 +45,14 @@ This is a typical way of getting yes responses from the prompt of Prolog executi
 Now no responses. 
 
 ?- cm_check(interns,replacements).
+
 no
 
 
 %made arguments Plural throw no response. 
 
 ? - cm_check(passthrough,riots).
+
 no
 
 
