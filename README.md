@@ -66,3 +66,11 @@ error throws
 
 
  % incomplete with closing brackets and missing second argument. 
+
+
+
+#Further Reading
+
+Search for author name Frank Appiah at easychair.org. 
+Four published articles are on display at the site.
+The first is on security reasoning and the other three on the Prolog files. 
