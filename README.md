@@ -71,6 +71,6 @@ error throws
 
 # Further Reading
 
-Search for author name Frank Appiah at easychair.org. 
+Search for author name Frank Appiah at easychair.org or Google scholar. 
 Four published articles are on display at the site.
 The first is on security reasoning and the other three on the Prolog files. 
